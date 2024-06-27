@@ -1,10 +1,12 @@
 # Please read this file first before running API!
 
-#### 1. Install DjVuLibre library on your PC
+#### 1. Download and Install DjVuLibre library on your PC
 
-    DjVuLibre-3.5.28_DjView-4.12_Setup.exe
+    https://sourceforge.net/projects/djvu/files/latest/download
 
-#### 2. Add your DjVuLibre path to Environment Path and restart your PC
+#### 2. Add your DjVuLibre path to System Environment Path and restart your PC
+
+    In my case: C:\Program Files (x86)\DjVuLibre
 
     run "ddjvu" command on your command prompt window and ensure that there's no error
 
@@ -16,7 +18,7 @@
 
     run "uvicorn app:app --reload"
 
-#### 5. Send apis on your postman to convert djvu to pdf
+#### 5. Send api request on your postman to convert djvu to pdf
 
     Method: POST
 
