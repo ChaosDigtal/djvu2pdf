@@ -26,15 +26,13 @@
 
     Select "Body" tab, choose "form-data" option and add following parameters!
 
-##### 
-    Mandantory
+##### Mandantory
 
     input_path: YOUR_DJVU_FILE_FULL_PATH (E:\Python\CD5523005522 - CD5523005522-231104-YOUSUF MACHINES & STRUCTURALS1 (1).djvu)
 
     output_path: YOUR_PDF_FILE_FULL_PATH (E:\Python\output.pdf)
 
-##### 
-    Optional
+##### Optional
 
     jpeg_quality: IMAGE_QUALITY (Must be a number between 1 ~ 100, default 90)
 
